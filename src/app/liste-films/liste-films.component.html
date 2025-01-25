@@ -1,0 +1,22 @@
+<h2>Liste des Films</h2>
+<div class="bloc">
+    <div>
+        <h4> Nom du film : {{tabFilms[0].nomFilm}} </h4>
+        <img [src]='tabFilms[0].imageFilm' class="image"><br>
+        <button (click)="onJaime(0)" >J'aime</button>{{tabFilms[0].nbJaime}}
+        <button (click)="onJaimePas(0)" >J'aime</button>{{tabFilms[0].nbJeNaimeps}}
+    </div>
+
+    <div>
+        <h4> Nom du film : {{tabFilms[1].nomFilm}} </h4>
+        <img [src]='tabFilms[1].imageFilm' class="image"><br>
+        <button (click)="onJaime(1)" >J'aime</button>{{tabFilms[1].nbJaime}}
+        <button (click)="onJaimePas(1)" >J'aime</button>{{tabFilms[1].nbJeNaimeps}}
+    </div>
+    <div>
+        <h4> Nom du film : {{tabFilms[2].nomFilm}} </h4>
+        <img [src]='tabFilms[2].imageFilm' class="image"><br>
+        <button (click)="onJaime(2)" >J'aime</button>{{tabFilms[2].nbJaime}}
+        <button (click)="onJaimePas(2)" >J'aime</button>{{tabFilms[2].nbJeNaimeps}}
+    </div>
+</div>
