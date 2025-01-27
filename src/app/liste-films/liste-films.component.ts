@@ -1,9 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-liste-films',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './liste-films.component.html',
   styleUrl: './liste-films.component.css'
 })
@@ -37,4 +38,14 @@ export class ListeFilmsComponent {
       this.tabFilms[i].nbJeNaimeps++;
       console.log('J\'aime pas ce film' + this.tabFilms[i].nbJeNaimeps);
       }
+
+    getColor(x:number,y:number){
+      if(x>y){
+        return "#1c8454";
+      }else if (x==y){
+        return "#ffffff";
+      }else{
+        return "#dc3444";
+      }
+    }
 }
