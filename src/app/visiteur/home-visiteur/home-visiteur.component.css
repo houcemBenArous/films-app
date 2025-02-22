@@ -1,0 +1,29 @@
+.btnInfo {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+    }
+
+    .boutonv{
+        display: block;
+    }
+    .boutonh{
+        display: none;
+    }
+    .stylenom{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    .bloc{
+        margin:0;
+        text-align: left;
+        color: blue;
+        font-weight: bold;
+    }

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Film } from '../shared/models/film';
+import { FILMS } from '../shared/models/des-films';
 
 @Component({
   selector: 'app-visiteur',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './visiteur.component.css'
 })
 export class VisiteurComponent {
-
+  
 }

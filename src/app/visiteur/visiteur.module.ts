@@ -10,7 +10,6 @@ import { VisiteurComponent } from './visiteur.component';
     VisiteurComponent
   ],
   imports: [
-    CommonModule,
     VisiteurRoutingModule
   ]
 })
